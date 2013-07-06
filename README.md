@@ -1,6 +1,10 @@
 # RPi_SerialGPS
 
-## Written in pure Java
+## NMEA 0183 GPS/GLONASS Compatible
+### Written in pure Java
+
+
+Uses the Raspberry Pi's serial port (GPIO Serial RX Pin) to receive, parse, and store/display NMEA 0183 Sentences 
 
 #### Copyright (c) 2013 Jason Sipula | All Rights Reserved
 
