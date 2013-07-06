@@ -16,7 +16,6 @@
 
 package com.vanomaly.rpi.serial.gps.db;
 
-import java.io.FileInputStream;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

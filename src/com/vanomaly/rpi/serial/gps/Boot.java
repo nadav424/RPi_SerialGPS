@@ -51,7 +51,6 @@ public class Boot {
         if (Config.getInstance().getConfig("STORE").equalsIgnoreCase("TRUE")) {
             try {
                 DatabaseManager.getInstance().initialize();
-                DatabaseManager.getInstance().getDB().openConnection();
             } catch (ClassNotFoundException | SQLException e) {
                 e.printStackTrace();
             }
